@@ -1,0 +1,11 @@
+{
+  "name": "@nkcmr/bool",
+  "version": "1.0.0",
+  "description": "cast damn near anything to a logical boolean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"be patient!!\""
+  },
+  "author": "Nick Comer",
+  "license": "MIT"
+}
