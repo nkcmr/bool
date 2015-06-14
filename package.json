@@ -1,10 +1,14 @@
 {
   "name": "@nkcmr/bool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cast damn near anything to a logical boolean",
   "main": "index.js",
   "scripts": {
     "test": "echo \"be patient!!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkcmr/bool.git"
   },
   "author": "Nick Comer",
   "license": "MIT"
