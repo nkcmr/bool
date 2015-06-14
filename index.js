@@ -28,5 +28,8 @@ module.exports = function bool_it_up (val) {
   if (typeof val === 'object') {
     return Object.keys(val).length > 0
   }
+  if (Object.prototype.toString.call(val) === '[object Date]') {
+    return !isNaN(val.valueOf())
+  }
   return !!val
 }
